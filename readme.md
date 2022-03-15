@@ -56,7 +56,7 @@ _Check linked files to more details._
 [Click to download](https://github.com/mvfsillva/dotfiles/archive/refs/heads/main.zip) 
 
 ```bash
-  cd ~/Downloads/dotfiles-personal
+  cd ~/Downloads/dotfiles-main
 ./setup.sh
 ```
 
