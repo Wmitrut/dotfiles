@@ -35,7 +35,7 @@ done
 FORMULAS=(
   curl
   git
-  nano
+  vim
   node
   postgresql
   python
@@ -53,13 +53,28 @@ done
 
 # Install Homebrew casks
 CASKS=(
-  beekeeper-studio
+  docker
   font-jetbrains-mono
   google-chrome
   iina
-  postman
-  qbittorrent
+  openinterminal
+  pdf-expert
+  tableplus
   visual-studio-code
+  notion
+  zoom
+  firefox
+  fig
+  coconutbattery
+  figma
+  dbeaver-community
+  spark
+  runjs
+  slack
+  reactotron
+  rectangle
+  iterm2
+  spotify
 )
 
 for app in ${CASKS[@]}

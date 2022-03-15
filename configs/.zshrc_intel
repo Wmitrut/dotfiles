@@ -54,37 +54,62 @@ source $ZSH/oh-my-zsh.sh
 ZSH_THEME=""
 eval "$(starship init zsh)"
 
-# Starship path to load .config
-export PATH="/usr/local/opt/starship/bin:$PATH"
-
 # --------------------------- Aliases ----------------------------------
-# Cleanup Homebrew and Cask cache
-alias cleanup="brew cleanup"
-
-# Copy SSH
-alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
-
-# Open .gitconfig in VSCode
-alias gitcfg="code ~/.gitconfig"
-
-# Update macOS using Command Line Software Update Tool
-alias macupdate="sudo softwareupdate -ia"
-
 # Update Homebrew and Cask formulaes
 # Include -f to update apps that are marked as latest
 alias update="brew update && brew upgrade && brew cu --all"
 
-# List outdated npm packages installed globally
-alias npmcheck="npm outdated -g --depth=0"
+# Cleanup Homebrew and Cask cache
+alias cleanup="brew cleanup"
+
+# Update macOS using Command Line Software Update Tool
+alias macupdate="sudo softwareupdate -ia"
 
 # List npm packages installed globally
 alias npmlist="npm list -g --depth=0"
 
-# Update npm packages installed globally
-alias npmupdate="npm update -g"
-
 # Undo the last commit
 alias uncommit="git reset HEAD~1"
 
+# Copy SSH
+alias copyssh="pbcopy < ~/.ssh/id_ed25519.pub | echo '=> Public key copied to pasteboard.'"
+
 # Open .zshrc in VSCode
 alias zshcfg="code ~/.zshrc"
+
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dev="cd ~/Development"
+alias g="git"
+alias h="history"
+alias sqlinit="mysql.server start"
+alias sqlstop="mysql.server stop"
+alias avdlist="emulator -list-avds"
+alias pixel3="emulator -avd Pixel_3_API_28"
+
+# Klue Shortcuts
+alias k="cd ~/kluein"
+alias kv2="cd ~/kluein/frontend-v2"
+alias kv1="cd ~/kluein/klue"
+alias kext="cd ~/kluein/klue-ext"
+
+export PATH="/usr/local/opt/starship/bin:$PATH"
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH"
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+# Starship path to load .config
+export PATH="/usr/local/opt/starship/bin:$PATH"

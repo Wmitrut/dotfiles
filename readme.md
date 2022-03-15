@@ -78,7 +78,7 @@ It will then install the following scripts, in this order:
 - [apps.sh][] - install _Homebrew_, _Homebrew Cask Upgrade_ and applications.
 
   - Install [Homebrew][].
-  - Homebrew formulas: [curl][], [Git][], [Nano][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
+  - Homebrew formulas: [curl][], [Git][], [vim][], [Node][], [PostgreSQL][], [Python][], [Ruby][], [Tree][], [Yarn][], [Zsh][].
   - Homebrew taps: [homebrew/fonts][], [homebrew/drivers][], [homebrew/versions][], [homebrew/command-not-found][].
   - Homebrew casks: [Beekeeper Studio][], [Google Chrome][], [IINA][], [JetBrains Mono][], [Postman][], [qBittorrent][] and [Visual Studio Code][].
   - Install [Homebrew Cask Upgrade][].
