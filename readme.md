@@ -1,3 +1,5 @@
+[Based on the original repository](https://github.com/samuelramox/dotfiles)
+
 # macOS Dotfiles
 
 This is a simple and flexible dotfiles and scripts to setup _macOS_.
@@ -51,10 +53,10 @@ _Check linked files to more details._
 **Note:** _These files are permanent_.
 
 ## Installation
+[Click to download](https://github.com/mvfsillva/dotfiles/archive/refs/heads/main.zip) 
 
 ```bash
-git clone https://github.com/samuelramox/dotfiles.git && cd dotfiles
-
+  cd ~/Downloads/dotfiles-personal
 ./setup.sh
 ```
 
@@ -140,20 +142,15 @@ It will then install the following scripts, in this order:
 [homebrew/fonts]: https://github.com/Homebrew/homebrew-cask-fonts
 [homebrew/versions]: https://github.com/Homebrew/homebrew-cask-versions
 [hostname.sh]: scripts/hostname.sh
-[iina]: https://iina.io/
 [installation]: #installation
 [jetbrains mono]: https://jetbrains.com/mono
 [macos.sh]: scripts/macos.sh
 [manual setup]: #manual-setup
-[nano]: https://www.nano-editor.org
 [node]: https://nodejs.org/
 [npm.sh]: scripts/npm.sh
 [oh my zsh]: https://ohmyz.sh
 [postgresql]: https://www.postgresql.org
-[postman]: https://www.postman.com
 [python]: https://www.python.org
-[qbittorrent]: https://www.qbittorrent.org/
-[release]: https://github.com/samuelramox/dotfiles/releases
 [resources]: #resources
 [ruby]: https://www.ruby-lang.org/
 [sensible macos defaults]: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
