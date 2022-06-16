@@ -1,5 +1,9 @@
 [Based on the original repository](https://github.com/samuelramox/dotfiles)
 
+<p align="center">
+    <img width="300" height="auto" src="face.png"/>
+</p>
+
 # macOS Dotfiles
 
 This is a simple and flexible dotfiles and scripts to setup _macOS_.
@@ -53,7 +57,8 @@ _Check linked files to more details._
 **Note:** _These files are permanent_.
 
 ## Installation
-[Click to download](https://github.com/mvfsillva/dotfiles/archive/refs/heads/main.zip) 
+
+[Click to download](https://github.com/mvfsillva/dotfiles/archive/refs/heads/main.zip)
 
 ```bash
   cd ~/Downloads/dotfiles-main

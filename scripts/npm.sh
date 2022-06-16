@@ -24,6 +24,7 @@ PACKAGES=(
   typescript
   yalc
   git-open
+  vue
 )
 
 for package in ${PACKAGES[@]}

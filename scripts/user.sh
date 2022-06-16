@@ -5,10 +5,10 @@
 # If you don't put the data in now, you'll need to configure .gitconfig and SSH later
 
 # User variables
-GIT_NAME="mvfsilva"
-GIT_EMAIL="mvfsillva@gmail.com"
-SSH_EMAIL="mvfsillva@gmail.com"
-HOSTNAME="marcus"
+GIT_NAME="wmitrut"
+GIT_EMAIL="wellingtonmitrut@gmail.com"
+SSH_EMAIL="wellingtonmitrut@gmail.com"
+HOSTNAME="wmitrut"
 
 # Guidance
 # - GIT_NAME: name and surname to use in Git settings.
