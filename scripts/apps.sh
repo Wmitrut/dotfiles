@@ -75,6 +75,7 @@ CASKS=(
   rectangle
   iterm2
   spotify
+  raycast
 )
 
 for app in ${CASKS[@]}

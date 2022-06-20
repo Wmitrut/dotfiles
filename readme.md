@@ -58,7 +58,7 @@ _Check linked files to more details._
 
 ## Installation
 
-[Click to download](https://github.com/mvfsillva/dotfiles/archive/refs/heads/main.zip)
+[Click to download](https://github.com/wmitrut/dotfiles/archive/refs/heads/main.zip)
 
 ```bash
   cd ~/Downloads/dotfiles-main
